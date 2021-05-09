@@ -1,38 +1,155 @@
-.App {
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: navajowhite;
+  
+}
+
+nav{
+  margin: 0;
+  height: 10vh;
+}
+
+nav .nav-links{
+  display: flex;
+  flex-direction: row;
+  background-image: linear-gradient( #ffe259,#ffa751);
+  margin: 0;
+  padding: 0 5rem;
+  height: 100%;
+  list-style: none;
+
+  
+}
+
+.nav-links li{
+  font-size: 2rem;
+  align-items: center;
+  
+
+}
+
+.nav-links .user{
+  margin: auto 0 auto auto;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+} 
+
+
+
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+  width: 100%;
+}
+
+
+main .welcome h1{
+  margin: .2rem;
+
+
+}
+
+.welcome h1.mortal{
+  font-size: 80px;  
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  font-size: 3rem;
+  background: linear-gradient(to bottom, rgb(223, 11, 11), rgb(63, 58, 58) 60%, rgb(58, 22, 216) 60%, #fff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  transition: background 0.2s ease-out;
+  white-space: nowrap;
+  border: solid black;
+  text-align: center;
+  
+
+}
+
+
+
+.title {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ .link {
+   color: black;
+   font-family: Arial, Helvetica, sans-serif;
+   margin: auto 1rem;
+   cursor: pointer;
+   z-index: 10;
+   
+ }
+
+
+.about {
+  text-align: center;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.power{
+  text-align: center; 
+  font-weight: bold;
+  font-size: 20px;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.welcome p.enter{
+  font-size: 30px;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.WorldToday{
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 80px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.a{
+  font-size: 30px;
+  text-align: center;
 }
+
+.feature{
+  box-shadow: rgb(60, 156, 156);
+  margin-left: 8vh;
+  width: 400px;
+	height:400px;
+	padding:10px;
+  border: 5px solid green;
+  background-color: teal;
+  box-shadow: 10px 15px;
+ 
+  
+}
+.feature1{
+  margin-top: none ;
+  color: #fff;
+}
+.feature2{
+  color: #fff;
+  text-align: justify;
+}
+.feature3{
+  box-shadow: rgb(60, 156, 156);
+  margin-left: 8vh;
+  width: 400px;
+	height:400px;
+	padding:10px;
+  border: 5px solid green;
+  background-color: teal;
+  box-shadow: 10px 15px;
+ 
+  
+  
+}
+
