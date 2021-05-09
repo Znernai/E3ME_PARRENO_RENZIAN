@@ -27,7 +27,7 @@ const Nav = ({user}) => {
             <li>Archives</li>
             </Link>     
             <li className="user" onClick={alertNotice}> 
-            HELLO <span>{user}</span>
+            <span>{user}</span>
            
             </li>
         </ul>

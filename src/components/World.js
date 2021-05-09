@@ -2,7 +2,7 @@ const World = () => {
     return (
         <div className="Container">
             <h1 className='WorldToday'>WORLD TODAY</h1>
-                <p className='a'> By Renz Ian Parreño</p>
+                <p className='a'> By Brand_X</p>
              <ul>
                 <div className="feature">
                 
